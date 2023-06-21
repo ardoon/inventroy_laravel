@@ -1,0 +1,1 @@
+# inventroy_laravel
