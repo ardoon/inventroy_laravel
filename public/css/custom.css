@@ -1,0 +1,205 @@
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 900;
+    src: url('fonts/eot/IRANSansWeb(FaNum)_Black.eot');
+    src: url('fonts/eot/IRANSansWeb(FaNum)_Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('fonts/woff2/IRANSansWeb(FaNum)_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('fonts/woff/IRANSansWeb(FaNum)_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('fonts/ttf/IRANSansWeb(FaNum)_Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('fonts/eot/IRANSansWeb(FaNum)_Bold.eot');
+    src: url('fonts/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('fonts/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('fonts/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('fonts/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/eot/IRANSansWeb(FaNum)_Medium.eot');
+    src: url('fonts/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('fonts/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('fonts/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('fonts/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/eot/IRANSansWeb(FaNum)_Light.eot');
+    src: url('fonts/eot/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('fonts/woff2/IRANSansWeb(FaNum)_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('fonts/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('fonts/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 200;
+    src: url('fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot');
+    src: url('fonts/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('fonts/woff2/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('fonts/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('fonts/ttf/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/eot/IRANSansWeb(FaNum).eot');
+    src: url('fonts/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('fonts/woff2/IRANSansWeb(FaNum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('fonts/woff/IRANSansWeb(FaNum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('fonts/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+html, body, #app{
+  font-family: IRANSans;
+  direction: rtl;
+  text-align: right;
+}
+
+.dropdown-menu{
+  text-align: right;
+}
+
+.btn.btn-sm {
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.modal-header .close {
+    margin:-1rem auto -1rem -1rem;
+}
+
+.table-link{
+    cursor: pointer;
+}
+
+.swal-footer, .swal-text{
+    text-align: center;
+}
+
+.head-row{
+    background: #f9f9f9;
+    font-weight: bold;
+}
+
+#productsTable tr th{
+    text-align: right;
+}
+
+#products-table-body tr td{
+    text-align: right;
+}
+
+#products-table-body .empty-td{
+    font-size: 12px;
+}
+
+.product-category-tiny{
+    border-radius: 10px;
+    background: #c4e4ff;
+    font-size: 11px;
+    padding: 3px 10px;
+}
+
+.page-item.active .page-link {
+    background-color: #8a8a8a;
+}
+
+#product-categories-wrapper{
+    height: 208px;
+    padding: 15px;
+    font-size: 13px;
+}
+
+#product-categories-wrapper .category-single{
+    background: #eaeaea;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+#product-categories-wrapper .category-single .cat-del{
+    cursor: pointer;
+}
+
+.custom-plus-btn {
+    background: #8f8;
+    color: #626262;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.custom-plus-btn:hover{
+    background: #62de62;
+}
+
+.custom-plus{
+    vertical-align: -1px;
+    color: #555;
+}
+
+.category-picker-wrapper{
+    width: 96%;
+    height: 123%;
+    background: #fff;
+    z-index: 99999;
+    display: none;
+    top: -42px;
+}
+
+.btn-abs{
+    position: absolute !important;
+    bottom: 5px;
+    width: 100%;
+}
+
+.custom-single-product{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 5px 0px 5px;
+    width: 97%;
+    margin: 0px auto 10px auto;
+    position: relative;
+}
+
+.custom-add-row-icon{
+    cursor: pointer;
+    font-size: 12px;
+    background: #808080;
+    width: 120px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.delete-single-entry{
+    position: absolute;
+    left: 12px;
+    top: 8px;
+    cursor: pointer;
+    z-index: 9999999999;
+}
+
+.new-filter-wrapper{
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+
+.chooooser {
+    position: absolute;
+    left: 23px;
+    top: 38px;
+    cursor: pointer;
+}
+
+
+
